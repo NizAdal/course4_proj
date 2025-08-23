@@ -166,3 +166,5 @@ class Dev(Configuration):
     
     OMDB_KEY = "abc123"
 
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+        ADMINS = [("Ben", "ben@example.com")]
